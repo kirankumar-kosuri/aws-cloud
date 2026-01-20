@@ -9,14 +9,18 @@
 3.Groups
 4.Roles
 
-1.IAM Users
-###########
+1.Users
+#######
 * IAM Users are like Authentication if we create user in IAM the user can login into aws account but user can to anything he get only view access
 
-2.IAM Policies
-##############
-* Policies for Authorization if we create a user and attach some policies like S3,EC2 the user can enter into that specific service and he can get access for that services and user can do anything 
+2.Policies
+##########
+* IAM Policies for Authorization if we create a user and attach some policies like S3,EC2 the user can enter into that specific service and he can get access for that services and user can do anything 
 
-3.IAM Groups
-############
-* Groups 
+3.Groups
+########
+* IAM Groups are nothing but we can create groups and add users to that groups.For example their is a Development group of 5 users instead of creating users and attaching policies for each user we can add users to that group and we can add polocies to that group so all users will get access to that services.It reduce manual effect 
+
+4.Roles
+#######
+* 
