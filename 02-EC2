@@ -1,1 +1,59 @@
 * EC2[Elastic Cloud Compute]
+############################
+
+* What is Compute
+##################
+1. Compute is nothing but we are asking aws to provide compute resources like Ram,Cpu,Disk.Technically we are asking a virtual server
+
+* Virtual Server
+################
+1. Virtual Server is a software-based computer that run inside a physical server
+
+* With an EC2 virtual server we can do the below ones
+1. We can run applications and Websites
+2. We can install any operating systems like Linux or Windows
+3. Configure Cpu,Ram and Storage
+4. We can scale our resources up or down
+
+* Steps for Creating Instances
+##############################
+Step-1
+######
+Click on Launch instance 
+Step-2
+######
+We have to select the Number of instances 
+Eg- 1 Instance i am selecting
+Step-3
+######
+We have to specify the name of the instance
+Eg-my-first-instance 
+Step-4
+######
+We have to select operating systems(OS)
+Eg-I am selecting Ubuntu after we have to select OS version
+Step-5
+######
+We have to select the Instance type 
+Eg- I am selecting T3.Micro
+Step-6
+######
+We have to select Key pair if key is not created click on Create new key pair and login with that key in Putty or Mobaxterm
+Step-7
+######
+Network Setting keep as default
+Step-8
+######
+Configure storage
+1x [8]
+GiB [gp3]
+
+
+
+
+
+
+
+
+
+
