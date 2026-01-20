@@ -1,9 +1,9 @@
 * IAM[Identity Access Management]
-###################################################
+#################################
 * In AWS IAM Service solves the problem of Authentication and Authorization
 
 * Components of IAM 
-###################################################
+###################
 1.Users
 2.Policies
 3.Groups
@@ -11,4 +11,5 @@
 
 1.Users
 #######
-* Users 
+* Users are like Authentication if we create user in IAM the user can login into aws account but   user can to anything he get only view access
+
