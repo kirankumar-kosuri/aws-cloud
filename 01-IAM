@@ -1,8 +1,8 @@
-*IAM[Identity Access Management]
+* IAM[Identity Access Management]
 ###################################################
--->In AWS IAM Service solves the problem of Authentication and Authorization
+* In AWS IAM Service solves the problem of Authentication and Authorization
 
-*Components of IAM 
+* Components of IAM 
 ###################################################
 1.Users
 2.Policies
@@ -11,3 +11,4 @@
 
 1.Users
 #######
+* Users 
