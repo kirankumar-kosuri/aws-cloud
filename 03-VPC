@@ -5,4 +5,10 @@
 1.VPC is nothing but is a Virtual Private Cloud where we can create resources for our applications and Project
 * Components of VPC
 ###################
-1.
+1.Subnets
+2.Route Tables
+3.Internet Gateways
+4.Elastic IPs
+5.NAT gateways
+
+https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat.html
