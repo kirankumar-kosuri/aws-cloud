@@ -47,3 +47,15 @@ Internet Gateway == Modem/Arch
 ########################################################
 
 * In Aws Security is a shared responsibility when we will create an application we should allow traffic or we should open ports regarding to that application supports we should not open ports whar ever we want it creates a problem or it is easy to hack the application that we create this will done by the aws security groups in Aws 
+
+* In security group there are two types of traffic they are 
+#################################################
+1.Inbound Traffic 
+2.Outbound Traffic
+
+1.Inbound Traffic
+#################
+* When we can an application in Ec2 instance the traffic  coming into our application is Inbound Traffic.In inbound traffic Aws won't allow anything by default we have to open the required ports 
+2.Outbound Traffic
+#################
+* When we can an application in Ec2 instance the traffic  going  out from  our application is Outbound Traffic.In outbound traffic Aws will allow all the traffic.By using security groups we can manage both inbound and outbound traffics
