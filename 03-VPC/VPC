@@ -11,3 +11,9 @@
 4.Elastic IPs
 5.NAT gateways
 
+1.Subnets
+#########
+Subnets or nothing but they are like partitions in the network for maintance and security purpose
+2.Route Tables
+##############
+
