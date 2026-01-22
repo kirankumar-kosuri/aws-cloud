@@ -42,10 +42,12 @@ Internet Gateway == Modem/Arch
 
 ###############################################################################################################################################
 
-########################################################
 * Security Groups & NACL'S [Network Access Control List]
 ########################################################
 
+* Security Groups
+#################
+* Security groups are applied at the instance level
 * In Aws Security is a shared responsibility when we will create an application we should allow traffic or we should open ports regarding to that application supports we should not open ports whar ever we want it creates a problem or it is easy to hack the application that we create this will done by the aws security groups in Aws 
 
 * In security group there are two types of traffic they are 
@@ -59,3 +61,11 @@ Internet Gateway == Modem/Arch
 2.Outbound Traffic
 #################
 * When we can an application in Ec2 instance the traffic  going  out from  our application is Outbound Traffic.In outbound traffic Aws will allow all the traffic.By using security groups we can manage both inbound and outbound traffics
+
+* NACL'S [Network Access Control List]
+######################################
+* NACL'S is applied at the Subnets Level
+* NACL'S will add additional layer of security
+* When we create ec2 instance and adding security groups  instead we can create NACL'S and we can add them to subnets
+* We can use security groups or we can use NACL'S or we can use Security Groups+NACL'S
+
