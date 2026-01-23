@@ -1,0 +1,31 @@
+* Route53
+#########
+* DNS[Domain Name System]
+* In AWS Route53 provides DNS as a Service 
+* Humans remember names, Computer works on numbers means for a human we cannot remember Ip address we can remember domain names instead of it
+* For Example 172.17.0.1 it is hard to remember instead of it we can convert Ip address to Domain Name through DNS like Google.com  we can access applications with domain names 
+* DNS Resolver -> A simple software running in ISP servers to fetch the IP address for a domain 
+
+What happens when we buy a domain?
+##################################
+* If we take domain name like daws86s.online we can pay to godaddy/hostinger to purchase the domain
+* .online -> Who owns it domain.Registars == godaddy/hostinger TLD pays commission to godaddy
+* If we want to keep the Domain permenent we can purchase in GoDaddy.If we want temparary we can purchase in Hostinger
+* Nameservers update to TLD, Here TLD is nothing but Top Level Domain
+
+Type of records
+###############
+A -> IpV4 address
+CNAME --> Another domain
+MX -> Mail servers
+TXT -> Domain verrification purpose
+AAAA -> IpV6
+NS -> Nameservers, who is controlling the domain
+SOA -> Who is controlling
+
+* mysql.daws86s.fun -> MySQL private IP
+* TTL -> Time to live (Controls how much your cache keeps this record, before issuing next request)
+* High TTL -> DNS overload decreases. stable websites will have high TTL
+* Low TTL -> migration activities. decrease TTL 
+
+
