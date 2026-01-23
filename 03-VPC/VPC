@@ -42,7 +42,7 @@ Internet Gateway == Modem/Arch
 
 ###############################################################################################################################################
 
-* Security Groups & NACL'S [Network Access Control List]
+* Security Groups & NACL [Network Access Control List]
 ########################################################
 
 * Security Groups
@@ -62,10 +62,10 @@ Internet Gateway == Modem/Arch
 #################
 * When we can an application in Ec2 instance the traffic  going  out from  our application is Outbound Traffic.In outbound traffic Aws will allow all the traffic.By using security groups we can manage both inbound and outbound traffics
 
-* NACL'S [Network Access Control List]
+* NACL [Network Access Control List]
 ######################################
-* NACL'S is applied at the Subnets Level
-* NACL'S will add additional layer of security
-* When we create ec2 instance and adding security groups  instead we can create NACL'S and we can add them to subnets
-* We can use security groups or we can use NACL'S or we can use Security Groups+NACL'S
+* NACL is applied at the Subnets Level
+* NACL will add additional layer of security groups
+* When we create ec2 instance and adding security groups instead we can create NACL and we can add them to subnets
+* We can use security groups or we can use NACL'S or we can use Security Groups+NACL
 
