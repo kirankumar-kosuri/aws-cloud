@@ -1,38 +1,38 @@
-* VPC[Virtual Private Cloud/Isolated Cloud Resources]
-#####################################################
-* What is VPC
-#############
+# VPC[Virtual Private Cloud/Isolated Cloud Resources]
+=====================================================
+# What is VPC
+=============
 1Imagine you want to set up a private, secure, and isolated area in the cloud where you can run your applications and store your data. This is where a VPC comes into play
 2.VPC is nothing but is a Virtual Private Cloud where we can create resources for our applications and Project.We have full control over this and we are completely responsbile to this
 
-* Components of VPC
-###################
+# Components of VPC
+===================
 1.Subnets
 2.Route Tables
 3.NAT gateways
 4.Elastic IPs
 
 1.Subnets
-#########
+=========
 Subnets or nothing but they are like partitions in the network for maintance and security purpose
 2.Route Tables
-##############
+==============
 * We have to types of Subnets they are 
 1.Public Subnet 
 2.Private Subnet
 
 1.Public Subnet
-###############
+===============
 * Subnets which have access to the internet gateway route is called public subnet
 2.Private Subnet
-################
+================
 * Subnets which don't have access to the internet gateway route is called private subnet
 
 3.NAT gateways
-##############
+==============
 * If we want to enable engress internet access to the private servers we can enable NAT gateway for installation,patches etc...
 4.Elastic IPs
-#############
+=============
 * An Elastic IP address is a static, public IPv4 address designed specifically for the dynamic nature in vpc
 
 VPC == Village
@@ -40,30 +40,30 @@ Subnets == Streets
 Route == Roads
 Internet Gateway == Modem/Arch
 
-###############################################################################################################################################
+=============================================================================================================================================
 
 * Security Groups & NACL [Network Access Control List]
-########################################################
+======================================================
 
-* Security Groups
-#################
+# Security Groups
+=================
 * Security groups are applied at the instance level
 * In Aws Security is a shared responsibility when we will create an application we should allow traffic or we should open ports regarding to that application supports we should not open ports whar ever we want it creates a problem or it is easy to hack the application that we create this will done by the aws security groups in Aws 
 
-* In security group there are two types of traffic they are 
-#################################################
+# In security group there are two types of traffic they are 
+===========================================================
 1.Inbound Traffic 
 2.Outbound Traffic
 
 1.Inbound Traffic
-#################
+=================
 * When we can an application in Ec2 instance the traffic  coming into our application is Inbound Traffic.In inbound traffic Aws won't allow anything by default we have to open the required ports 
 2.Outbound Traffic
-#################
+==================
 * When we can an application in Ec2 instance the traffic  going  out from  our application is Outbound Traffic.In outbound traffic Aws will allow all the traffic.By using security groups we can manage both inbound and outbound traffics
 
 * NACL [Network Access Control List]
-######################################
+====================================
 * NACL is applied at the Subnets Level
 * NACL will add additional layer of security groups
 * When we create ec2 instance and adding security groups instead we can create NACL and we can add them to subnets
