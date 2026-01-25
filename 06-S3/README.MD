@@ -33,6 +33,4 @@
 # S3 Storage Classes
 ====================
 * S3 offers multiple storage classes, each designed for different use cases and performance requirements:
-
-
-[text](c:/Users/kosur/Downloads/s3.txt)
+![alt text](image.png)
