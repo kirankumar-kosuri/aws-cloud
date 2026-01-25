@@ -30,7 +30,7 @@
 
 # Advanced S3 Bucket Features
 =============================
-# S3 Storage Classes
+S3 Storage Classes
 ====================
-* S3 offers multiple storage classes, each designed for different use cases and performance requirements:
+* S3 offers multiple storage classes, each designed for different use cases and performance requirements
 ![alt text](image.png)
