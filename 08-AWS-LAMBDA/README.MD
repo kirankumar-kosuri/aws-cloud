@@ -22,7 +22,7 @@ Pay-per-Use: One of the most attractive features of serverless computing is cost
 
 Supported Languages: Lambda supports multiple programming languages like Node.js, Python, Java, Go, and more. You can choose the language you are comfortable with or that best fits your application's needs.
 
-Real-World Use Cases
+# Real-World Use Cases
 Now, let's explore some real-world use cases to better understand how AWS Lambda can be applied:
 
 Automated Image Processing: Imagine you have a photo-sharing app, and users upload images every day. You can use Lambda to automatically resize or compress these images as soon as they are uploaded to S3.
