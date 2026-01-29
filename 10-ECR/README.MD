@@ -15,6 +15,12 @@
 * ECR mainly focus on security 
 
 # Key Benefits of ECR
-* Security: ECR offers encryption at rest, and images are stored in private repositories by default, ensuring the security of your container images.
-* Scalability: As a managed service, ECR automatically scales to meet the demands of your container image storage.
-* Availability: ECR guarantees high availability, reducing the risk of image unavailability during critical times.
+* Security: ECR offers encryption at rest, and images are stored in private repositories by default, ensuring the security of your container images
+* Scalability: As a managed service, ECR automatically scales to meet the demands of your container image storage
+* Availability: ECR guarantees high availability, reducing the risk of image unavailability during critical times
+
+# Getting Started with AWS ECR
+# Creating an ECR Repository
+1.Go to the AWS Management Console and navigate to the Amazon ECR service.
+2.Click on "Create repository" to create a new repository.
+3.Enter a unique name for your repository and click "Create repository."
