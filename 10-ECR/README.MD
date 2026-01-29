@@ -37,14 +37,14 @@ Now that you have your ECR repository set up and the AWS CLI configured, let's p
 
 1. Build your Docker image locally using the docker build command:
  docker build -t <your-image-name> <path-to-dockerfile>
-# Tag the image with your ECR repository URI:
-* docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
-# Log in to your ECR registry using the AWS CLI:
-* aws ecr get-login-password --region <your-region> | docker login --username AWS --password-stdin <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com
-# Push the Docker image to ECR:
-* docker push <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
-# Pulling Docker Images from ECR
-* To pull and use the Docker images from ECR on another system or AWS service, follow these steps:
-* Log in to ECR using the AWS CLI as shown in Step 3 of the previous section.
-* Pull the Docker image from ECR:
-* docker pull <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+2. Tag the image with your ECR repository URI:
+ docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+3. Log in to your ECR registry using the AWS CLI:
+ aws ecr get-login-password --region <your-region> | docker login --username AWS --password-stdin <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com
+4. Push the Docker image to ECR:
+ docker push <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+5. Pulling Docker Images from ECR
+ To pull and use the Docker images from ECR on another system or AWS service, follow these steps:
+ Log in to ECR using the AWS CLI as shown in Step 3 of the previous section.
+Pull the Docker image from ECR:
+ docker pull <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
