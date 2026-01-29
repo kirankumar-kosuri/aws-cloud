@@ -36,7 +36,7 @@
 Now that you have your ECR repository set up and the AWS CLI configured, let's push a Docker image to ECR.
 
 1. Build your Docker image locally using the docker build command:
-* docker build -t <your-image-name> <path-to-dockerfile>
+ docker build -t <your-image-name> <path-to-dockerfile>
 # Tag the image with your ECR repository URI:
 * docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
 # Log in to your ECR registry using the AWS CLI:
