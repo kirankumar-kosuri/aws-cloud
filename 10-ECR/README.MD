@@ -30,9 +30,8 @@
 
 # Configuring AWS CLI
 * After installing the AWS CLI, open a terminal and run the following command to configure your CLI with your AWS credentials:
-
-aws configure
-Enter your AWS Access Key ID, Secret Access Key, default region, and preferred output format when prompted.
+* Run aws configure
+* Enter your AWS Access Key ID, Secret Access Key, default region, and preferred output format when prompted.
 
 4. Pushing Docker Images to ECR
 Now that you have your ECR repository set up and the AWS CLI configured, let's push a Docker image to ECR.
