@@ -14,3 +14,7 @@
 * ECR is mainly supports the privite repository when we can a repository by default is enables the privite repo
 * ECR mainly focus on security 
 
+# Key Benefits of ECR
+* Security: ECR offers encryption at rest, and images are stored in private repositories by default, ensuring the security of your container images.
+* Scalability: As a managed service, ECR automatically scales to meet the demands of your container image storage.
+* Availability: ECR guarantees high availability, reducing the risk of image unavailability during critical times.
