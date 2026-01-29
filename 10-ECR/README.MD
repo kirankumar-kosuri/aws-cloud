@@ -21,6 +21,6 @@
 
 # Getting Started with AWS ECR
 # Creating an ECR Repository
-1.Go to the AWS Management Console and navigate to the Amazon ECR service.
-2.Click on "Create repository" to create a new repository.
-3.Enter a unique name for your repository and click "Create repository."
+* Go to the AWS Management Console and navigate to the Amazon ECR service
+* Click on "Create repository" to create a new repository
+* Enter a unique name for your repository and click "Create repository"
