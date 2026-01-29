@@ -32,21 +32,19 @@
 * After installing the AWS CLI, open a terminal and run the following command to configure your CLI with your AWS credentials:
 * Run aws configure
 * Enter your AWS Access Key ID, Secret Access Key, default region, and preferred output format when prompted.
-
-4. Pushing Docker Images to ECR
+* Pushing Docker Images to ECR
 Now that you have your ECR repository set up and the AWS CLI configured, let's push a Docker image to ECR.
 
-Build your Docker image locally using the docker build command:
-docker build -t <your-image-name> <path-to-dockerfile>
-Tag the image with your ECR repository URI:
-docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
-Log in to your ECR registry using the AWS CLI:
-aws ecr get-login-password --region <your-region> | docker login --username AWS --password-stdin <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com
-Push the Docker image to ECR:
-docker push <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
-5. Pulling Docker Images from ECR
-To pull and use the Docker images from ECR on another system or AWS service, follow these steps:
-
-Log in to ECR using the AWS CLI as shown in Step 3 of the previous section.
-Pull the Docker image from ECR:
-docker pull <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+# Build your Docker image locally using the docker build command:
+* docker build -t <your-image-name> <path-to-dockerfile>
+# Tag the image with your ECR repository URI:
+* docker tag <your-image-name>:<tag> <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+# Log in to your ECR registry using the AWS CLI:
+* aws ecr get-login-password --region <your-region> | docker login --username AWS --password-stdin <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com
+# Push the Docker image to ECR:
+* docker push <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
+# Pulling Docker Images from ECR
+* To pull and use the Docker images from ECR on another system or AWS service, follow these steps:
+* Log in to ECR using the AWS CLI as shown in Step 3 of the previous section.
+* Pull the Docker image from ECR:
+* docker pull <your-aws-account-id>.dkr.ecr.<your-region>.amazonaws.com/<your-repository-name>:<tag>
